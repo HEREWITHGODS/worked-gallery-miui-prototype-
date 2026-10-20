@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Виртуальное окружение
+venv/
+.venv/
+env/
+ENV/
+
+# PyInstaller
+build/
+dist/
+*.spec
+*.manifest
+
+# IDE / редакторы
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Локальные данные приложения
+# (кэш превью и индекс SQLite создаются в ~/.cache/miui_gallery,
+#  но на всякий случай, если что-то попадёт в папку проекта)
+.miui_gallery_config.json
+cache/
+thumbs/
+*.db
+*.db-journal
